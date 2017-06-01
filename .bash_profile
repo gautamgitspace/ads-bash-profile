@@ -3,6 +3,7 @@ PATH=/pkg/bin:/pkg/sbin:/usr/lib64/qt-3.3/bin:/usr/kerberos/bin:/router/bin:/usr
 #GENERAL ALIASES
 alias list='ls -lahG'
 alias work='cd /nobackup/abhigaut/'
+alias tmuxattach='tmux -CC'
 
 #BUILD & PULL ALIASES
 alias buildfrettahw='/auto/iox/bin/xr_bld -plat ncs5500'
@@ -22,7 +23,12 @@ alias ads='echo sjc-ads-2647'
 alias whichenxr='ls *.vm'
 alias wsdesc='echo | cat WS_DESC.md'
 alias bashrc='vim ~/.bash_profile'
+alias actalias='source ~/.bash_profile'
 alias rebootads='/ecs/utils/aurora/reboot-ads'
+alias spawn='lboot -m -c'
+alias unmount='lcleanup --unmount'
+alias killprocs='lcleanup --killprocs'
+alias killqueues='lcleanup --mqueues'
 
 #ALIASES FOR FIB UT
 alias testcases='vim /nobackup/abhigaut/fib_ut/platforms/common/dnx/fib/engine/test/testcases'
