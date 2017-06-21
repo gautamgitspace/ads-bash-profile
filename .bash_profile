@@ -4,6 +4,8 @@ PATH=/pkg/bin:/pkg/sbin:/usr/lib64/qt-3.3/bin:/usr/kerberos/bin:/router/bin:/usr
 alias list='ls -lahG'
 alias work='cd /nobackup/abhigaut/'
 alias tmuxattach='tmux -CC'
+alias space='df -H'
+alias home='cd ~'
 
 #BUILD & PULL ALIASES
 alias buildfrettahw='/auto/iox/bin/xr_bld -plat ncs5500'
@@ -20,7 +22,7 @@ alias utlog='vim dnx_fib_ut_run.log'
 #ALIASES FOR ADS RELATED STUFF
 alias myefr='/auto/mssbu-swtools/iox/bin/my_ws_efr'
 alias ads='echo sjc-ads-2647'
-alias whichenxr='ls *.vm'
+alias whichvm='ls *.vm'
 alias wsdesc='echo | cat WS_DESC.md'
 alias bashrc='vim ~/.bash_profile'
 alias actalias='source ~/.bash_profile'
@@ -29,6 +31,7 @@ alias spawn='lboot -m -c'
 alias unmount='lcleanup --unmount'
 alias killprocs='lcleanup --killprocs'
 alias killqueues='lcleanup --mqueues'
+alias ws='cd /ws/abhigaut-sjc'
 
 #ALIASES FOR FIB UT
 alias testcases='vim /nobackup/abhigaut/fib_ut/platforms/common/dnx/fib/engine/test/testcases'
