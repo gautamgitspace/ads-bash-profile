@@ -6,6 +6,8 @@ alias work='cd /nobackup/abhigaut/'
 alias tmuxattach='tmux -CC'
 alias space='df -H'
 alias home='cd ~'
+alias meminfo='grep MemTotal /proc/meminfo'
+alias cpuinfo='grep processor /proc/cpuinfo | wc -l'
 
 #BUILD & PULL ALIASES
 alias buildfrettahw='/auto/iox/bin/xr_bld -plat ncs5500'
