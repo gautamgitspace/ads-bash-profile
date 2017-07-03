@@ -34,6 +34,7 @@ alias unmount='lcleanup --unmount'
 alias killprocs='lcleanup --killprocs'
 alias killqueues='lcleanup --mqueues'
 alias ws='cd /ws/abhigaut-sjc'
+alias deletews='lcleanup --deletews'
 
 #ALIASES FOR FIB UT
 alias testcases='vim /nobackup/abhigaut/fib_ut/platforms/common/dnx/fib/engine/test/testcases'
